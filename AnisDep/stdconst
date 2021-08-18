@@ -1,0 +1,32 @@
+c-----Standard include file with various constants
+c
+      double precision DKMDG,DDGKM,DRAD,DDEG
+      real KMDG,DGKM,RAD,DEG
+      double precision DPI,DTWOPI,DHLFPI
+      real PI,TWOPI,HALFPI
+      double precision DFLAT
+      real FLAT
+c
+      parameter (DGKM=8.9931777e-03)
+      parameter (DDGKM=8.9931777d-03)
+      parameter (KMDG=111.1954)
+      parameter (DKMDG=111.1954d0)
+c
+      parameter (RAD=1.7453292e-02)
+      parameter (DRAD=1.7453292d-02)
+      parameter (DEG=57.29577951)
+      parameter (DDEG=57.29577951d0)
+c
+      parameter (PI=3.14159265358979324e0)
+      parameter (TWOPI=6.28318530717958648e0)
+      parameter (HALFPI=1.57079632679489662e0)
+      parameter (DPI=3.14159265358979324d0)
+      parameter (DTWOPI=6.28318530717958648d0)
+      parameter (DHLFPI=1.57079632679489662d0)
+c
+c-----(1 - earth flattening)**2
+*      parameter (FLAT=0.993305242609e0)
+*      parameter (DFLAT=0.993305242609d0)
+
+      parameter (FLAT= 0.99330562000985868302e0)    !! WGS 84.
+      parameter (DFLAT=0.99330562000985868302d0)

@@ -1,0 +1,16 @@
+c-----Standard parameter include file.
+c
+c-----Maximum station and event counts
+      integer MAXSTA,MAXEV
+c-----Standard logical units for input, output, error, and prompt
+      integer STDIN,STDOUT,STDERR,STDPMT
+c
+c-----Minima and maxima
+      parameter (MAXSTA=200)
+      parameter (MAXEV=200)
+c
+c-----logical units
+      parameter (STDIN=5)
+      parameter (STDOUT=6)
+      parameter (STDERR=0)
+      parameter (STDPMT=0)
